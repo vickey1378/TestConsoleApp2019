@@ -38,7 +38,8 @@ namespace ConsoleApp2019
             using (StreamReader r = new StreamReader(@"E:\Hangouts.json"))
             {
                 string json = r.ReadToEnd();
-                ds  = JsonConvert.DeserializeObject<HangoutData>(json);
+                //Commented code
+                //ds  = JsonConvert.DeserializeObject<HangoutData>(json);
             }
         }
     }
